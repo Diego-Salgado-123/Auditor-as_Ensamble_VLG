@@ -3,38 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Selecciona tu Formulario</title>
+    <title>Selecciona la auditoría</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             text-align: center;
             margin-top: 50px;
+            background-color: #f0f0f0;
+        }
+        h1 {
+            margin-bottom: 30px;
         }
         ul {
             list-style: none;
             padding: 0;
         }
         li {
-            margin: 15px 0;
+            margin: 20px 0;
         }
         a {
             text-decoration: none;
-            background-color: #0078D4;
+            padding: 20px 40px;
+            border-radius: 10px;
+            font-size: 20px;
+            font-weight: bold;
             color: white;
-            padding: 12px 25px;
-            border-radius: 5px;
-            font-size: 16px;
+            display: inline-block;
+            width: 300px;
         }
-        a:hover {
+        /* Botón 1: Azul */
+        .btn-azul {
+            background-color: #0078D4;
+        }
+        .btn-azul:hover {
             background-color: #005a9e;
+        }
+        /* Botón 2: Verde */
+        .btn-verde {
+            background-color: #4CAF50;
+        }
+        .btn-verde:hover {
+            background-color: #388E3C;
         }
     </style>
 </head>
 <body>
     <h1>Selecciona la auditoría que necesitas llenar</h1>
     <ul>
-        <li><a href="https://forms.office.com/Pages/ResponsePage.aspx?id=2nUmxGZuAEKdDaKHTPPPQl9wbiN2piBEoP77IHzoIJlUQjI0WTVXWkswUjJDVFk5N1FZTjlaRVhBWi4u" target="_blank">Auditoría de capas o Escalonada</a></li>
-        <li><a href="https://forms.office.com/e/0NLYhce80J?origin=lprLink" target="_blank">Auditoría 5´s Assembly</a></li>
+        <li><a href="https://forms.office.com/Pages/ResponsePage.aspx?id=2nUmxGZuAEKdDaKHTPPPQl9wbiN2piBEoP77IHzoIJlUQjI0WTVXWkswUjJDVFk5N1FZTjlaRVhBWi4u" 
+               class="btn-azul" target="_blank">Auditoría de capas o Escalonada</a></li>
+        <li><a href="https://forms.office.com/e/0NLYhce80J?origin=lprLink" 
+               class="btn-verde" target="_blank">Auditoría 5´s Assembly</a></li>
     </ul>
 </body>
 </html>
